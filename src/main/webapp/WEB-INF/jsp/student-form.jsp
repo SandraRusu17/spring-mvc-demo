@@ -17,6 +17,21 @@
 
         <input type="submit" value="Submit">
 
+        <br><br>
+
+        <form:select path="country">
+
+            <form:option value="Brazil" label="Brazil" />
+            <form:option value="France" label="France" />
+            <form:option value="Moldova" label="Moldova" />
+            <form:option value="Romania" label="Romania" />
+
+        </form:select>
+
+        <br><br>
+
+
+
 
     </form:form>
 </body>
