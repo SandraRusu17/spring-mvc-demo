@@ -10,6 +10,12 @@
     <br><br>
 
     Student country: ${student.country}
+
+    <br><br>
+
+    Student favorite language: ${student.favoriteLanguage}
+
+
 </body>
 
 </html>
