@@ -1,4 +1,4 @@
-<html xmlns:form="http://www.w3.org/1999/xhtml">
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <head>
     <title>Student Confirmation</title>
@@ -15,7 +15,18 @@
 
     Student favorite language: ${student.favoriteLanguage}
 
+    <br><br>
 
+    Operating Systems:
+
+    <ul>
+        <c:forEach var="temp" items="${student.operationSystems}">
+
+                <li> ${temp} </li>
+
+        </c:forEach>
+
+    </ul>
 </body>
 
 </html>
